@@ -1,3 +1,5 @@
+## DePaul SE452 Project
+
 ## About the project
 This project will be a yelp style website where users can leave reviews on restaurants.
 
@@ -10,7 +12,7 @@ This project will be a yelp style website where users can leave reviews on resta
 | History | display user's whole review history | Arshain
 
 ## Github Location
-https://github.com/luqi-lqi7/SE452
+This will be the Location of the Project https://github.com/luqi-lqi7/SE452
 
 ## Conflict Resolve
 Each group member has their own feature package, code will be submitted to corresponding package.
