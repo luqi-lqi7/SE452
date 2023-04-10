@@ -19,3 +19,7 @@ Each group member has their own feature package, code will be submitted to corre
 
 ## Communication Mechanism
 WhatsApp group & Zoom meetings
+
+## Tools
+Markup : * GitHub
+         * VSCode
