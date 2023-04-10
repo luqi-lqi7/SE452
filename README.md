@@ -21,5 +21,5 @@ Each group member has their own feature package, code will be submitted to corre
 WhatsApp group & Zoom meetings
 
 ## Tools
-Markup : * GitHub
-         * VSCode
+Markup : - GitHub
+         - VSCode
