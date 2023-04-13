@@ -1,0 +1,13 @@
+environment: development
+
+logging:
+  level:
+    root: DEBUG
+
+spring:
+  datasource:
+    url: jdbc:h2:mem:se452RRdev
+  jpa:
+    generate-ddl: true
+    show-sql: true
+    defer-datasource-initialization: true
