@@ -1,1 +1,0 @@
-insert into review(userID, restaurantID, date, content, star) values ('1', '1', 'Apr 12 2023 10:10', 'Great food!', 5);

@@ -1,13 +1,22 @@
 environment: development
 
 logging:
+  file:
+    name: logs/se452RR-dev.log
+  pattern:
+    file: "%d %-5level [%thread] %logger : %msg%n"
   level:
-    root: DEBUG
+    root: INFO
+    org.springframework: ERROR
+    edu.depaul.cdm.se452: DEBUG
 
 spring:
-  datasource:
-    url: jdbc:h2:mem:se452RRdev
   jpa:
     generate-ddl: true
     show-sql: true
     defer-datasource-initialization: true
+  datasource:
+    url: jdbc:h2:mem:se452RRdev
+  sql:
+    init:
+      platform: h2 

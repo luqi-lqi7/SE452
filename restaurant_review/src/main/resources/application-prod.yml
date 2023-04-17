@@ -1,13 +1,19 @@
 environment: production
 
 logging:
+  file:
+    name: logs/se452RR-prod.log
+  pattern:
+    file: "%d %-5level [%thread] %logger : %msg%n"
   level:
-    root: ERROR
+    root: WARN
+    org.springframework: ERROR
+    edu.depaul.cdm.se452: INFO
 
 spring:
-  datasource:
-    url: jdbc:h2:mem:se452RRprod
   jpa:
     generate-ddl: true
     show-sql: true
     defer-datasource-initialization: true
+  datasource:
+    url: jdbc:h2:mem:se452RRprod

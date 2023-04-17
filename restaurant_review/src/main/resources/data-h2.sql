@@ -1,0 +1,2 @@
+insert into reviews(user_id, restaurant_id, date, content, star) values (1, 1, 'Apr 12 2023 10:10', 'Great food!', 5);
+insert into reviews(user_id, restaurant_id, date, content, star) values (1, 2, 'Apr 13 2023 10:10', 'Average food', 3);
