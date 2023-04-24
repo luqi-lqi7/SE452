@@ -3,9 +3,13 @@ package edu.depaul.se452.restaurant_review.review_test;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
+import org.springframework.test.context.ActiveProfiles;
 
-import edu.depaul.se452.restaurant_review.review_lu.Review;
+import edu.depaul.se452.restaurant_review.review_lu.relational.Review;
 
+@DataJpaTest
+@ActiveProfiles("test")
 public class ReviewTest {
     @Test
     public void testToString() {

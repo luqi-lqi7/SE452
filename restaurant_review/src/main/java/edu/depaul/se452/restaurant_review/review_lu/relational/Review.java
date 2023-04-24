@@ -1,4 +1,4 @@
-package edu.depaul.se452.restaurant_review.review_lu;
+package edu.depaul.se452.restaurant_review.review_lu.relational;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -18,13 +18,13 @@ import lombok.NoArgsConstructor;
 public class Review {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private long id;
+    private int id;
 
     @Column(name = "user_id")
-    private long userID;
+    private int userID;
 
     @Column(name = "restaurant_id")
-    private long restaurantID; 
+    private int restaurantID; 
 
     private String date; 
 

@@ -1,4 +1,4 @@
-package edu.depaul.se452.restaurant_review.review_lu;
+package edu.depaul.se452.restaurant_review.review_lu.relational;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
