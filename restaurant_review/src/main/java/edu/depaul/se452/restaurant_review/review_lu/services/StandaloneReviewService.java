@@ -18,9 +18,9 @@ import org.springframework.web.bind.annotation.RestController;
 import edu.depaul.se452.restaurant_review.review_lu.relational.Review;
 
 @RestController
-@RequestMapping("/api/reviews")
+@RequestMapping("/api/nondb/reviews")
 public class StandaloneReviewService {
-    private static Map<Integer, Review> allReviews = new HashMap<>();
+    private static Map<Long, Review> allReviews = new HashMap<>();
 
     static {
         var r1 = new Review();
@@ -70,7 +70,7 @@ public class StandaloneReviewService {
     }
 
     @PostMapping
-    public int add(@RequestBody Review review) {
+    public long add(@RequestBody Review review) {
         review.setId(getNextKeyValue());
         allReviews.put(review.getId(), review);
         return review.getId();
@@ -82,7 +82,7 @@ public class StandaloneReviewService {
     }
 
     @DeleteMapping("/{id}")
-    public void delete(@PathVariable("id") int id) {
+    public void delete(@PathVariable("id") long id) {
         allReviews.remove(id);
     }
 

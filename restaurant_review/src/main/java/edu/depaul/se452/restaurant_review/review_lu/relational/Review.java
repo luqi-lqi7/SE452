@@ -18,13 +18,13 @@ import lombok.NoArgsConstructor;
 public class Review {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
+    private long id;
 
     @Column(name = "user_id")
-    private int userID;
+    private long userID;
 
     @Column(name = "restaurant_id")
-    private int restaurantID; 
+    private long restaurantID; 
 
     private String date; 
 
