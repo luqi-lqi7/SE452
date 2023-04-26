@@ -1,4 +1,4 @@
-package edu.depaul.se452.restaurant_review.menu_arshain.entity;
+package edu.depaul.se452.restaurant_review.food_arshain.relational;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -9,23 +9,20 @@ import lombok.NoArgsConstructor;
 @Entity
 @AllArgsConstructor
 @NoArgsConstructor
-@Table(name = "Menu")
-public class Menu {
+@Table(name = "Food")
+public class Food {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private long id;
 
-    @Column(name = "restaurant_id")
-    private long restaurantID;
+    @Column(name = "food_id")
+    private long foodID;
 
     @Column(name = "title")
     private String title;
 
     @Column(name = "description")
     private String description;
-
-    @Column(name = "price")
-    private Double price;
 
 
 }
