@@ -1,5 +1,7 @@
 package edu.depaul.se452.restaurant_review.review_lu.relational;
 
+import java.time.LocalDate;
+
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -26,7 +28,8 @@ public class Review {
     @Column(name = "restaurant_id")
     private long restaurantID; 
 
-    private String date; 
+    @Column(name = "date")
+    private LocalDate date; // or LocalDateTime, or Date, or Timestamp
 
     private String content; 
     

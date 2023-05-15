@@ -1,5 +1,6 @@
 package edu.depaul.se452.restaurant_review.review_lu.services;
 
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -27,7 +28,7 @@ public class StandaloneReviewService {
         r1.setId(getNextKeyValue());
         r1.setUserID(1);
         r1.setRestaurantID(1);
-        r1.setDate("Apr 23 2023, 10:10");
+        r1.setDate(LocalDate.of(2023, 4, 1));
         r1.setContent("very good");
         r1.setStar(5);
         allReviews.put(r1.getId(), r1);
@@ -36,7 +37,7 @@ public class StandaloneReviewService {
         r2.setId(getNextKeyValue());
         r2.setUserID(2);
         r2.setRestaurantID(2);
-        r2.setDate("Apr 23 2023, 20:20");
+        r1.setDate(LocalDate.of(2023, 4, 10));
         r2.setContent("just so so");
         r2.setStar(3);
         allReviews.put(r2.getId(), r2);
