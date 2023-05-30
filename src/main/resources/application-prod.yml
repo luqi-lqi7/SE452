@@ -17,3 +17,17 @@ spring:
     defer-datasource-initialization: true
   datasource:
     url: jdbc:h2:mem:se452RRprod
+  server:
+    ssl:
+      key-store: classpath:se452key.jks
+      key-store-type: pkcs12
+      key-store-password: testpwd
+      key-alias: se452key
+    port: 8443
+  security:
+    user: 
+      name: testuser
+      password: testpwd
+
+
+  
