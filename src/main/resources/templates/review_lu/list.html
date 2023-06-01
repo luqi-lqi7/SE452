@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Course</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+</head>
+<body>
+<div class="hero">
+    <div>
+        <p class="title">Course Detail</p>
+        <form method="post" th:action="@{/api/db/reviews}" th:object="${review}">
+            <input class="input" id="id" placeholder="" required th:field="*{id}" type="text" readonly/>
+            <input class="input" id="userID" placeholder="" required th:field="*{userID}" type="text" readonly/>
+            <input class="input" id="restaurantID" placeholder="" required th:field="*{restaurantID}" type="text" readonly/>
+            <input class="input"id="date" placeholder="Enter Date" required th:field="*{date}" type="text"/>
+            <input class="input"id="content" placeholder="Enter Your Review" required th:field="*{content}" type="text"/>
+            <input class="input"id="star" placeholder="Star" required th:field="*{star}" type="text"/>
+            <div class="field is-grouped">
+                <div class="control">
+                    <button class="button is-link" th:text="${btnAddOrModifyLabel}"></button>
+
+                </div>
+                <div class="control">
+                    <button class="button is-link is-light">Cancel</button>
+                </div>
+            </div>
+        </form>
+    </div>
+    &nbsp;
+    &nbsp;
+    <p class="title">Review List</p>
+    <div th:if="${#lists.isEmpty(reviews)}">No review</div>
+    <div th:unless="${#lists.isEmpty(reviews)}">
+        <table class="table is-striped is-bordered">
+            <tr>
+                <th>Id</th>
+                <th>User ID</th>
+                <th>Restaurant ID</th>
+                <th>Date</th>
+                <th>content</th>
+                <th>star</th>
+            </tr>
+            <tr th:each="review: ${reviews}">
+                <td th:text="${review.id}"></td>
+                <td th:text="${review.userID}"></td>
+                <td th:text="${review.restaurantID}"></td>
+                <td th:text="${review.date}"></td>
+                <td th:text="${review.content}"></td>
+                <td th:text="${review.star}"></td>
+                <td><a th:href="'review/update/' + ${review.id}"><i class="fas fa-user-edit ml-2"></i></a></td>
+                <td><a th:href="'review/delete/' + ${review.id}"><i class="fas fa-user-times ml-2"></i></a></td>
+            </tr>
+        </table>
+    </div>
+</div>
+<footer class="footer">
+    <div class="content has-text-centered">
+        <strong>SE452</strong> by
+        <a href="https://www.cdm.depaul.edu/academics/pages/courseinfo.aspx?Subject=SE&CatalogNbr=452">
+            Yours Truly
+        </a>
+    </div>
+</footer>
+</body>
+</html>
