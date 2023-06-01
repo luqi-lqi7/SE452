@@ -11,6 +11,11 @@ This project will be a yelp style website where users can leave reviews on resta
 | Review | store and display all restaurants's reviews | Lu | Added Additional finders in ReviewRepository | Added Metrics in ReviewService
 | History | display user's whole review history | Arshain
 
+
+## Working Code Screenshot
+- Final Submission
+![final](src/main/resources/img/final.png)
+
 ## Github Location
 This will be the Location of the Project https://github.com/luqi-lqi7/SE452
 
