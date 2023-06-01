@@ -1,68 +1,16 @@
-2023-05-30 01:17:10,877 WARN  [restartedMain] edu.depaul.se452.restaurant_review.RestaurantReviewApplication : Warning
-2023-05-30 01:17:10,880 ERROR [restartedMain] edu.depaul.se452.restaurant_review.RestaurantReviewApplication : Error
-2023-05-30 01:17:23,916 WARN  [restartedMain] edu.depaul.se452.restaurant_review.RestaurantReviewApplication : Warning
-2023-05-30 01:17:23,917 ERROR [restartedMain] edu.depaul.se452.restaurant_review.RestaurantReviewApplication : Error
-2023-05-30 01:20:22,865 WARN  [restartedMain] edu.depaul.se452.restaurant_review.RestaurantReviewApplication : Warning
-2023-05-30 01:20:22,866 ERROR [restartedMain] edu.depaul.se452.restaurant_review.RestaurantReviewApplication : Error
-2023-05-30 01:21:01,472 WARN  [restartedMain] edu.depaul.se452.restaurant_review.RestaurantReviewApplication : Warning
-2023-05-30 01:21:01,472 ERROR [restartedMain] edu.depaul.se452.restaurant_review.RestaurantReviewApplication : Error
-2023-05-30 01:28:45,431 WARN  [restartedMain] edu.depaul.se452.restaurant_review.RestaurantReviewApplication : Warning
-2023-05-30 01:28:45,432 ERROR [restartedMain] edu.depaul.se452.restaurant_review.RestaurantReviewApplication : Error
-2023-05-30 01:30:18,629 WARN  [restartedMain] edu.depaul.se452.restaurant_review.RestaurantReviewApplication : Warning
-2023-05-30 01:30:18,629 ERROR [restartedMain] edu.depaul.se452.restaurant_review.RestaurantReviewApplication : Error
-2023-05-30 01:31:13,389 WARN  [restartedMain] edu.depaul.se452.restaurant_review.RestaurantReviewApplication : Warning
-2023-05-30 01:31:13,389 ERROR [restartedMain] edu.depaul.se452.restaurant_review.RestaurantReviewApplication : Error
-2023-05-30 01:33:04,688 WARN  [restartedMain] edu.depaul.se452.restaurant_review.RestaurantReviewApplication : Warning
-2023-05-30 01:33:04,688 ERROR [restartedMain] edu.depaul.se452.restaurant_review.RestaurantReviewApplication : Error
-2023-05-30 01:33:24,899 WARN  [restartedMain] edu.depaul.se452.restaurant_review.RestaurantReviewApplication : Warning
-2023-05-30 01:33:24,900 ERROR [restartedMain] edu.depaul.se452.restaurant_review.RestaurantReviewApplication : Error
-2023-05-30 01:33:29,705 WARN  [restartedMain] edu.depaul.se452.restaurant_review.RestaurantReviewApplication : Warning
-2023-05-30 01:33:29,706 ERROR [restartedMain] edu.depaul.se452.restaurant_review.RestaurantReviewApplication : Error
-2023-05-30 01:39:25,211 WARN  [restartedMain] edu.depaul.se452.restaurant_review.RestaurantReviewApplication : Warning
-2023-05-30 01:39:25,211 ERROR [restartedMain] edu.depaul.se452.restaurant_review.RestaurantReviewApplication : Error
-2023-05-30 01:39:27,300 WARN  [restartedMain] edu.depaul.se452.restaurant_review.RestaurantReviewApplication : Warning
-2023-05-30 01:39:27,301 ERROR [restartedMain] edu.depaul.se452.restaurant_review.RestaurantReviewApplication : Error
-2023-05-30 01:39:42,550 WARN  [restartedMain] edu.depaul.se452.restaurant_review.RestaurantReviewApplication : Warning
-2023-05-30 01:39:42,551 ERROR [restartedMain] edu.depaul.se452.restaurant_review.RestaurantReviewApplication : Error
-2023-05-30 01:40:06,987 WARN  [restartedMain] edu.depaul.se452.restaurant_review.RestaurantReviewApplication : Warning
-2023-05-30 01:40:06,987 ERROR [restartedMain] edu.depaul.se452.restaurant_review.RestaurantReviewApplication : Error
-2023-05-30 01:42:56,133 WARN  [restartedMain] edu.depaul.se452.restaurant_review.RestaurantReviewApplication : Warning
-2023-05-30 01:42:56,133 ERROR [restartedMain] edu.depaul.se452.restaurant_review.RestaurantReviewApplication : Error
-2023-05-30 01:46:44,057 WARN  [restartedMain] edu.depaul.se452.restaurant_review.RestaurantReviewApplication : Warning
-2023-05-30 01:46:44,058 ERROR [restartedMain] edu.depaul.se452.restaurant_review.RestaurantReviewApplication : Error
-2023-05-30 01:46:47,078 WARN  [restartedMain] edu.depaul.se452.restaurant_review.RestaurantReviewApplication : Warning
-2023-05-30 01:46:47,078 ERROR [restartedMain] edu.depaul.se452.restaurant_review.RestaurantReviewApplication : Error
-2023-05-30 01:47:39,648 WARN  [restartedMain] edu.depaul.se452.restaurant_review.RestaurantReviewApplication : Warning
-2023-05-30 01:47:39,649 ERROR [restartedMain] edu.depaul.se452.restaurant_review.RestaurantReviewApplication : Error
-2023-05-30 01:47:46,759 ERROR [restartedMain] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter : 
-
-***************************
-APPLICATION FAILED TO START
-***************************
-
-Description:
-
-Web server failed to start. Port 8080 was already in use.
-
-Action:
-
-Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
-
-2023-05-30 01:49:30,994 WARN  [restartedMain] edu.depaul.se452.restaurant_review.RestaurantReviewApplication : Warning
-2023-05-30 01:49:30,994 ERROR [restartedMain] edu.depaul.se452.restaurant_review.RestaurantReviewApplication : Error
-2023-05-30 01:49:34,400 ERROR [restartedMain] org.springframework.boot.diagnostics.LoggingFailureAnalysisReporter : 
-
-***************************
-APPLICATION FAILED TO START
-***************************
-
-Description:
-
-Web server failed to start. Port 8080 was already in use.
-
-Action:
-
-Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
-
-2023-05-30 01:49:45,682 WARN  [restartedMain] edu.depaul.se452.restaurant_review.RestaurantReviewApplication : Warning
-2023-05-30 01:49:45,683 ERROR [restartedMain] edu.depaul.se452.restaurant_review.RestaurantReviewApplication : Error
+2023-06-01 00:44:16,045 WARN  [restartedMain] edu.depaul.se452.restaurant_review.RestaurantReviewApplication : Warning
+2023-06-01 00:44:16,048 ERROR [restartedMain] edu.depaul.se452.restaurant_review.RestaurantReviewApplication : Error
+2023-06-01 00:48:17,182 WARN  [restartedMain] edu.depaul.se452.restaurant_review.RestaurantReviewApplication : Warning
+2023-06-01 00:48:17,182 ERROR [restartedMain] edu.depaul.se452.restaurant_review.RestaurantReviewApplication : Error
+2023-06-01 00:51:39,116 WARN  [restartedMain] edu.depaul.se452.restaurant_review.RestaurantReviewApplication : Warning
+2023-06-01 00:51:39,117 ERROR [restartedMain] edu.depaul.se452.restaurant_review.RestaurantReviewApplication : Error
+2023-06-01 00:52:53,149 WARN  [restartedMain] edu.depaul.se452.restaurant_review.RestaurantReviewApplication : Warning
+2023-06-01 00:52:53,149 ERROR [restartedMain] edu.depaul.se452.restaurant_review.RestaurantReviewApplication : Error
+2023-06-01 00:52:59,617 WARN  [restartedMain] edu.depaul.se452.restaurant_review.RestaurantReviewApplication : Warning
+2023-06-01 00:52:59,618 ERROR [restartedMain] edu.depaul.se452.restaurant_review.RestaurantReviewApplication : Error
+2023-06-01 00:54:29,647 WARN  [restartedMain] edu.depaul.se452.restaurant_review.RestaurantReviewApplication : Warning
+2023-06-01 00:54:29,647 ERROR [restartedMain] edu.depaul.se452.restaurant_review.RestaurantReviewApplication : Error
+2023-06-01 01:09:23,158 WARN  [restartedMain] edu.depaul.se452.restaurant_review.RestaurantReviewApplication : Warning
+2023-06-01 01:09:23,159 ERROR [restartedMain] edu.depaul.se452.restaurant_review.RestaurantReviewApplication : Error
+2023-06-01 01:10:12,698 WARN  [restartedMain] edu.depaul.se452.restaurant_review.RestaurantReviewApplication : Warning
+2023-06-01 01:10:12,699 ERROR [restartedMain] edu.depaul.se452.restaurant_review.RestaurantReviewApplication : Error
