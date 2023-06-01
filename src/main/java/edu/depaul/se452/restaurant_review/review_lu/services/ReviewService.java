@@ -15,6 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import edu.depaul.se452.restaurant_review.review_lu.relational.Review;
 import edu.depaul.se452.restaurant_review.review_lu.relational.ReviewRepository;
+import io.micrometer.core.instrument.MeterRegistry;
 import lombok.extern.log4j.Log4j2;
 
 @RestController
@@ -23,6 +24,13 @@ import lombok.extern.log4j.Log4j2;
 public class ReviewService {
     @Autowired
     private ReviewRepository repo;
+    private final MeterRegistry meterRegistry;
+
+    @Autowired
+    public ReviewService(ReviewRepository repo, MeterRegistry meterRegistry) {
+        this.repo = repo;
+        this.meterRegistry = meterRegistry;
+    }
     
     @GetMapping
     public List<Review> list() {
@@ -113,26 +121,33 @@ public class ReviewService {
 
     //Additional finders
     public List<Review> findReviewsByUserID(long userID) {
-        return repo.findByUserID(userID);
+        List<Review> reviews = repo.findByUserID(userID);
+        meterRegistry.counter("service.review.findReviewsByUserID.count").increment();
+        return reviews;
     }
 
     public List<Review> findReviewsByRestaurantID(long restaurantID) {
+        meterRegistry.counter("service.review.findReviewsByRestaurantID.count").increment();
         return repo.findByRestaurantID(restaurantID);
     }
 
     public List<Review> findReviewsByDate(LocalDate date) {
+        meterRegistry.counter("service.review.findReviewsByDate.count").increment();
         return repo.findByDate(date);
     }
 
     public List<Review> findReviewsByContent(String content) {
+        meterRegistry.counter("service.review.findReviewsByContent.count").increment();
         return repo.findByContent(content);
     }
 
     public List<Review> findReviewsByStar(int star) {
+        meterRegistry.counter("service.review.findReviewsByStar.count").increment();
         return repo.findByStar(star);
     }
 
     public List<Review> findReviewsByUserIDAndRestaurantID(long userID, long restaurantID) {
+        meterRegistry.counter("service.review.findReviewsByUserIDAndRestaurantID.count").increment();
         return repo.findByUserIDAndRestaurantID(userID, restaurantID);
     }
 }

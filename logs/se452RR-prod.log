@@ -16,3 +16,9 @@
 2023-06-01 01:10:12,699 ERROR [restartedMain] edu.depaul.se452.restaurant_review.RestaurantReviewApplication : Error
 2023-06-01 16:47:26,812 WARN  [restartedMain] edu.depaul.se452.restaurant_review.RestaurantReviewApplication : Warning
 2023-06-01 16:47:26,814 ERROR [restartedMain] edu.depaul.se452.restaurant_review.RestaurantReviewApplication : Error
+2023-06-01 17:42:00,748 WARN  [restartedMain] edu.depaul.se452.restaurant_review.RestaurantReviewApplication : Warning
+2023-06-01 17:42:00,748 ERROR [restartedMain] edu.depaul.se452.restaurant_review.RestaurantReviewApplication : Error
+2023-06-01 17:42:45,385 WARN  [restartedMain] edu.depaul.se452.restaurant_review.RestaurantReviewApplication : Warning
+2023-06-01 17:42:45,386 ERROR [restartedMain] edu.depaul.se452.restaurant_review.RestaurantReviewApplication : Error
+2023-06-01 17:50:01,056 WARN  [restartedMain] edu.depaul.se452.restaurant_review.RestaurantReviewApplication : Warning
+2023-06-01 17:50:01,057 ERROR [restartedMain] edu.depaul.se452.restaurant_review.RestaurantReviewApplication : Error

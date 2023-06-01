@@ -5,8 +5,8 @@ package edu.depaul.se452.restaurant_review.review_lu;
  * 
  * Feature not discussed during class demo
  * 
- * Persistence: Additional finders in ReviewRepository
+ * Persistence: Added Additional finders in ReviewRepository
  * 
- * Non Persistence related: Beyond logging
+ * Non Persistence related: Added Metrics in ReviewService
  * 
 */
