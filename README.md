@@ -4,11 +4,11 @@
 This project will be a yelp style website where users can leave reviews on restaurants.
 
 ## Key features
-| Feature | Description | Developer
-| ----------- | ----------- |------
+| Feature | Description | Developer | Additional Feature Persistence | Additional Feature Non-Persistence
+| ----------- | ----------- |------ |------ |------
 | Account | visitor can create their account and use it to log in | Kwasi
 | Restaurant | store and display all the information of restaurants | Nisarg
-| Review | store and display all restaurants's reviews | Lu
+| Review | store and display all restaurants's reviews | Lu | Added Additional finders in ReviewRepository | Added Metrics in ReviewService
 | History | display user's whole review history | Arshain
 
 ## Github Location
