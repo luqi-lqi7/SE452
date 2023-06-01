@@ -1,5 +1,6 @@
 package edu.depaul.se452.restaurant_review.review_lu.services;
 
+import java.time.LocalDate;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -108,5 +109,30 @@ public class ReviewService {
         List<Review> reviews = repo.findAll(example);
 
         return reviews;
+    }
+
+    //Additional finders
+    public List<Review> findReviewsByUserID(long userID) {
+        return repo.findByUserID(userID);
+    }
+
+    public List<Review> findReviewsByRestaurantID(long restaurantID) {
+        return repo.findByRestaurantID(restaurantID);
+    }
+
+    public List<Review> findReviewsByDate(LocalDate date) {
+        return repo.findByDate(date);
+    }
+
+    public List<Review> findReviewsByContent(String content) {
+        return repo.findByContent(content);
+    }
+
+    public List<Review> findReviewsByStar(int star) {
+        return repo.findByStar(star);
+    }
+
+    public List<Review> findReviewsByUserIDAndRestaurantID(long userID, long restaurantID) {
+        return repo.findByUserIDAndRestaurantID(userID, restaurantID);
     }
 }
