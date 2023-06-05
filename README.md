@@ -7,7 +7,7 @@ This project will be a yelp style website where users can leave reviews on resta
 | Feature | Description | Developer | Additional Feature Persistence | Additional Feature Non-Persistence
 | ----------- | ----------- |------ |------ |------
 | Account | visitor can create their account and use it to log in | Kwasi
-| Restaurant | store and display all the information of restaurants | Nisarg
+| Restaurant | store and display all the information of restaurants. Also Made frontend. | Nisarg
 | Review | store and display all restaurants's reviews | Lu | Added Additional finders in ReviewRepository | Added Metrics in ReviewService
 | History | store food types and connect them to restaurants | Arshain
 
